@@ -1,0 +1,97 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
+%TF.CreationDate,2025-05-11T09:50:02+02:00*%
+%TF.ProjectId,USB_Tester,5553425f-5465-4737-9465-722e6b696361,rev?*%
+%TF.SameCoordinates,PX6516e80PY5a995c0*%
+%TF.FileFunction,Copper,L1,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-05-11 09:50:02*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD10RoundRect,0.250001X-0.462499X-0.624999X0.462499X-0.624999X0.462499X0.624999X-0.462499X0.624999X0*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD11RoundRect,0.250000X-0.400000X-0.625000X0.400000X-0.625000X0.400000X0.625000X-0.400000X0.625000X0*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD12RoundRect,0.250000X-3.250000X-0.750000X3.250000X-0.750000X3.250000X0.750000X-3.250000X0.750000X0*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD13RoundRect,0.250000X-2.750000X-0.500000X2.750000X-0.500000X2.750000X0.500000X-2.750000X0.500000X0*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD14C,0.500000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,D1,1,K*%
+%TO.N,Net-(D1-K)*%
+X19007500Y8000000D03*
+%TO.P,D1,2,A*%
+%TO.N,Net-(D1-A)*%
+X21982500Y8000000D03*
+%TD*%
+D11*
+%TO.P,R1,1*%
+%TO.N,Net-(J1-VBUS)*%
+X18900000Y4000000D03*
+%TO.P,R1,2*%
+%TO.N,Net-(D1-A)*%
+X22000000Y4000000D03*
+%TD*%
+D12*
+%TO.P,J1,1,VBUS*%
+%TO.N,Net-(J1-VBUS)*%
+X5000000Y2250000D03*
+D13*
+%TO.P,J1,2,D-*%
+%TO.N,unconnected-(J1-D--Pad2)*%
+X5000000Y5000000D03*
+%TO.P,J1,3,D+*%
+%TO.N,unconnected-(J1-D+-Pad3)*%
+X5000000Y7000000D03*
+D12*
+%TO.P,J1,4,GND*%
+%TO.N,Net-(D1-K)*%
+X5000000Y9750000D03*
+%TD*%
+D14*
+%TO.N,Net-(D1-K)*%
+X19007500Y8000000D02*
+X17257500Y9750000D01*
+X17257500Y9750000D02*
+X5000000Y9750000D01*
+%TO.N,Net-(D1-A)*%
+X21982500Y8000000D02*
+X21982500Y4017500D01*
+X21982500Y4017500D02*
+X22000000Y4000000D01*
+%TO.N,Net-(J1-VBUS)*%
+X17150000Y2250000D02*
+X5000000Y2250000D01*
+X18900000Y4000000D02*
+X17150000Y2250000D01*
+%TD*%
+M02*
